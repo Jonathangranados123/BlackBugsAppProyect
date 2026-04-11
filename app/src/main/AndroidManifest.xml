@@ -12,14 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Black_BugsProyect">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.home.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ui.stock.StockActivity" />
+        <activity android:name=".ui.cart.CartActivity" />
+        <activity android:name=".ui.contact.ContactActivity" />
     </application>
 
 </manifest>
